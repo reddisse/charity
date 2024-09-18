@@ -1,0 +1,24 @@
+/* Styling for the Opportunities section */
+.opportunities {
+    background-color: #f5f5f5; /* Light background for contrast */
+    padding: 40px 20px; /* Adjusted padding for a more compact look */
+    text-align: center; /* Center the text */
+    border-radius: 4px; /* Subtle rounded corners */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Lighter shadow for a more subtle depth */
+    margin: 40px auto; /* Center the section horizontally */
+    max-width: 800px; /* Limit the width */
+}
+
+.opportunities h2 {
+    font-size: 2rem; /* Slightly smaller heading */
+    color: #333; /* Darker color for readability */
+    margin-bottom: 15px; /* Reduced space below heading */
+    font-weight: 600; /* Slightly lighter weight for a cleaner look */
+}
+
+.opportunities p {
+    font-size: 1rem; /* Standard paragraph size */
+    color: #666; /* Softer text color */
+    line-height: 1.5; /* Improved readability */
+    margin-bottom: 0;
+}

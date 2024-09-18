@@ -1,0 +1,65 @@
+/* Basic reset to ensure no unwanted styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Basic font family */
+}
+
+.register-section {
+    background-color: #ffffff; /* Clean white background */
+    padding: 40px 20px; /* Spacing */
+    text-align: center; /* Centered text */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow */
+    margin: 40px auto; /* Centered horizontally */
+    max-width: 600px; /* Max width */
+    border: 1px solid #ddd; /* Light border */
+}
+
+.register-section h2,
+.register-section p {
+    text-decoration: none; /* No line-through */
+    border: none; /* No border */
+    box-shadow: none; /* No shadow */
+}
+
+.register-section h2 {
+    font-size: 2rem; /* Heading size */
+    color: #edfd06; /* Text color */
+    margin-bottom: 20px; /* Space below heading */
+    font-weight: 700; /* Bold heading */
+}
+
+.register-section p {
+    font-size: 1.1rem; /* Text size */
+    color: #fffb03; /* Text color */
+    line-height: 1.6; /* Line height */
+    margin-bottom: 30px; /* Space below text */
+}
+
+.buttons {
+    display: flex; /* Flex container for buttons */
+    justify-content: center; /* Center buttons */
+    gap: 20px; /* Space between buttons */
+}
+
+.btn {
+    display: inline-block; /* Button styling */
+    padding: 12px 24px; /* Padding */
+    font-size: 1rem; /* Font size */
+    color: #ffffff; /* Text color */
+    background-color: #007bff; /* Background color */
+    text-decoration: none; /* No underline */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Button shadow */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Hover effects */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker background on hover */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Hover shadow */
+}
